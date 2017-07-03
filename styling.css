@@ -1,0 +1,302 @@
+body {
+    background: #f2e1e1;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f2e1e1;
+    position: relative;
+}
+
+#container div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container h1{
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 150;
+    margin: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-family: "Raleway", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200
+}
+
+header img {
+    width: 100%;
+    position: center;
+}
+
+article {
+    width: 100%;
+    margin: 32px 0;
+
+}
+
+article div {
+
+    width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+article p {
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    color: grey;
+    text-align: left;
+    font-size: 15px;
+    line-height: 2;
+    font-style: italic;
+    font-family: Verdana,sans-serif;
+}
+
+
+
+h4 {
+    text-align: center;
+    color: #757575;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+}
+
+#button1 {
+    display: block;
+    text-align: center;
+    background-color: black;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 140px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, sans-serif;
+    }
+#button1:hover{
+    background-color: grey;
+}
+
+#container2 {
+    width: 100%;
+    padding: 20px;
+    background: #f2e1e1;
+}
+
+#flowers {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #f2e1e1;
+    position: relative;
+
+}
+
+#flowers div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400
+}
+
+header img {
+    width: 100%;
+    position: center;
+}
+
+#container3 {
+    width: 100%;
+    padding: 20px;
+    background: #f2e1e1;
+}
+#container3 p{
+    text-align: center;
+    color: grey;
+    font-size: 30px;
+
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+
+}
+
+#container4 {
+    width: 100%;
+    margin: 32px 0;
+}
+
+
+#container4 div {
+
+    width: 900px;
+    margin: auto;
+    text-align: left;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+#container5{
+    overflow: hidden;
+
+}
+#container5 div{
+    float: left;
+    padding-left: 350px;
+    text-align: center;
+    margin: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+
+#container5 h2{
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 54px;
+    font-weight: 100;
+}
+
+#container5 p{
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+
+article h4{
+    text-align: center;
+    color: #757575;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400
+
+}
+
+#container_end{
+    width: 100%;
+    padding: 20px;
+    background: #ffdddc;
+
+}
+
+#container_end h3{
+    text-align: center;
+    color: black;
+    font-size: 54px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+
+}
+#container_end p{
+    text-align: center;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+#button3 {
+    width: 100%;
+    padding: 50px;
+    position: relative;
+    background: #ffdddc;
+}
+#button3 div{
+    display: block;
+    text-align: center;
+    background-color: #f88179;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 140px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+#button3 div:hover{
+    background-color: grey;
+
+}
+
+
+#container6 {
+    width: 100%;
+    padding: 20px;
+    background: #ffdddc;
+}
+
+
+
+footer {
+    clear: both;
+    padding: 2em;
+    height:59px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+div.fixed {
+    position: fixed;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 7px;
+    border-color: white;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 99%;
+    height: 40px;
+    margin: 0;
+
+}
+
+a:link, a:visited {
+    background-color: white;
+
+    padding: 8px 150px;
+    color: #cccccc;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: grey;
+}
+
+
